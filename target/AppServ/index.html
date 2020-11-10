@@ -1,0 +1,48 @@
+<html>
+<head>
+<script type="text/javascript">
+
+var bStart = false;
+
+function setWindowURL( Win, sURL)
+{
+	Win.location.assign( sURL );
+	return true;
+}
+function getWindowURL( Win)
+{
+	return Win.location.href;
+}
+
+function setMain()
+{
+	var sURL = getWindowURL( window);
+	var i = sURL.indexOf( "REQUEST");
+	if( i < 0 ) sURL += "?REQUEST=Main";
+	setWindowURL( window, sURL);
+	alert( "setMain " + sURL );
+	return true;
+}
+
+function window_onload()
+{
+	if( window == window.top ){
+		if( setMain() ){
+			window.name = "Main";
+			bStart = true;
+			if( window.start ){
+				alert( "window.start" );
+				window.start();
+			} 
+			else	alert( "No window start" );
+		}
+		alert( "setMain false" );
+	}
+	alert( "window.top false" );
+	return;	
+}
+</script>
+</head>
+ <body onload="window_onload()"> 
+</body>
+</html>

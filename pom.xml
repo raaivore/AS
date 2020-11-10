@@ -1,0 +1,192 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+  <groupId>package-name</groupId>
+  <artifactId>AppServ</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>AppServ Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+ <properties>
+   <maven.compiler.source>6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+   <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+ </properties>
+
+<repositories>
+  <repository>
+    <id>project.local</id>
+    <name>project</name>
+    <url>file:${project.basedir}/repo</url>
+  </repository>
+</repositories>
+
+    <dependencies>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>solrj</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>servlet</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>or</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+<!-- 
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>httpclient</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>httpcore</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>codec</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>logging</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>httpclient-beta</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>apache-httpmime</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>slf4j</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>logback-classic</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>logback-core</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>solrjhttpclient</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>slf4j</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>slf4j-api</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>logback-classic</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>logback-core</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>commons-httpclient</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>httpcomponents</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>lib</groupId>
+		  <artifactId>apache-httpmime</artifactId>
+		  <version>1.0</version>
+		</dependency>
+ -->
+    </dependencies>
+
+
+  <build>
+    <finalName>AppServ</finalName>
+    <pluginManagement>
+      <plugins>
+      
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <source>1.7</source>
+            <target>1.7</target>
+        </configuration>
+    </plugin>
+
+      
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+           <dependencies>
+            <dependency>
+              <groupId>org.apache.maven.wagon</groupId>
+              <artifactId>wagon-file</artifactId>
+              <version>1.0</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

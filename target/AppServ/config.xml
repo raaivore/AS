@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<config debug="0" >
+	<database class="db" 
+		dbname="appres" srid="3301" 
+		drivername="org.postgresql.Driver" 
+		host="172.17.0.1:5432" user="postgres" typestr="postgresql" passwd="">
+	</database>
+	<solr>
+		<localhost>172.17.0.1</localhost>
+		<node1>8983</node1>
+		<node2>7574</node2>		 
+	</solr>
+
+</config>

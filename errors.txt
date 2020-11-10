@@ -1,0 +1,514 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mpackage-name:AppServ[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding AppServ Maven Webapp 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mAppServ[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mAppServ[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 62 source files to /home/hydra/workspace1/AppServ/target/classes
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;33mWARNING[m] COMPILATION WARNING : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;33mWARNING[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/Database.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/Database.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 2 warnings 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/Database.java:[17,27] package org.postgresql.util does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[16,19] package org.postgis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[17,27] package org.postgresql.util does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[19,19] package oracle.jdbc does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[20,19] package oracle.jdbc does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[23,17] package ee.or.gis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DOMData.java:[1781,34] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.DOMData
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DOMData.java:[1928,28] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.DOMData
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DOMData.java:[1936,28] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.DOMData
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[8,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[12,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[13,17] package ee.or.gis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[14,17] package ee.or.gis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[15,27] package org.apache.catalina does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[16,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[17,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[18,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[19,33] package org.apache.catalina.realm does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[28,45] package org.apache.commons.fileupload.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[29,25] package org.apache.coyote does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[30,20] package org.imgscalr does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[38,32] cannot find symbol
+  symbol: class HttpServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[247,27] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[280,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[348,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[364,36] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[523,49] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[844,34] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[914,27] cannot find symbol
+  symbol:   class MapGraphic
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[917,28] cannot find symbol
+  symbol:   class GISSight
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[917,59] cannot find symbol
+  symbol:   class GeomPoint
+  location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/Config.java:[13,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/Config.java:[14,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[244,35] cannot find symbol
+  symbol:   class ServletConfig
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[253,57] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[10,21] package javax.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[11,21] package javax.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[17,40] cannot find symbol
+  symbol: class HttpSessionListener
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[17,61] cannot find symbol
+  symbol: class ServletContextListener
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[22,19] package org.postgis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[23,27] package org.postgresql.util does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[28,21] package javax.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[29,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[30,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[36,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[37,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[38,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[39,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[275,27] cannot find symbol
+  symbol:   class ServletConfig
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[275,58] cannot find symbol
+  symbol:   class ServletException
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[374,50] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[385,54] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[390,45] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[397,50] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[402,52] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[418,44] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[429,47] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[448,44] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[457,46] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[470,55] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[483,55] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[493,50] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[503,35] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[514,38] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[583,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[583,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[584,28] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[584,56] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[584,93] cannot find symbol
+  symbol:   class ServletException
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[850,61] cannot find symbol
+  symbol:   class HttpSession
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[855,43] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[893,35] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[893,63] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[905,35] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[916,29] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[916,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[916,90] cannot find symbol
+  symbol:   class ServletException
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[959,39] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[974,37] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1431,37] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1431,61] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1434,37] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1438,38] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1449,32] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1452,32] cannot find symbol
+  symbol:   class HttpSession
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1464,33] cannot find symbol
+  symbol:   class HttpSession
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1476,31] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1524,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1524,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1524,96] cannot find symbol
+  symbol:   class ServletException
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1527,75] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1546,41] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1577,46] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1585,33] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1591,32] cannot find symbol
+  symbol:   class ServletContext
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1591,17] cannot find symbol
+  symbol:   class Realm
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1615,17] cannot find symbol
+  symbol:   class ApplicationContextFacade
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1614,17] cannot find symbol
+  symbol:   class ApplicationContext
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1641,17] cannot find symbol
+  symbol:   class ApplicationContext
+  location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1640,17] cannot find symbol
+  symbol:   class StandardContext
+  location: class ee.or.is.ISServlet
+[[1;34mINFO[m] 100 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.635 s
+[[1;34mINFO[m] Finished at: 2020-10-29T18:37:27+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.1:compile[m [1m(default-compile)[m on project [36mAppServ[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/Database.java:[17,27] package org.postgresql.util does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[16,19] package org.postgis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[17,27] package org.postgresql.util does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[19,19] package oracle.jdbc does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[20,19] package oracle.jdbc does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/db/DbAccess.java:[23,17] package ee.or.gis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DOMData.java:[1781,34] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.DOMData
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DOMData.java:[1928,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.DOMData
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DOMData.java:[1936,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.DOMData
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[8,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[12,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[13,17] package ee.or.gis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[14,17] package ee.or.gis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[15,27] package org.apache.catalina does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[16,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[17,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[18,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[19,33] package org.apache.catalina.realm does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[28,45] package org.apache.commons.fileupload.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[29,25] package org.apache.coyote does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[30,20] package org.imgscalr does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[38,32] cannot find symbol
+[[1;31mERROR[m]   symbol: class HttpServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[247,27] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[280,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[348,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[364,36] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[523,49] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[844,34] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[914,27] cannot find symbol
+[[1;31mERROR[m]   symbol:   class MapGraphic
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[917,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GISSight
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/DataObject.java:[917,59] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GeomPoint
+[[1;31mERROR[m]   location: class ee.or.is.DataObject
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/Config.java:[13,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/Config.java:[14,32] package org.apache.catalina.core does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[244,35] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletConfig
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[253,57] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[10,21] package javax.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[11,21] package javax.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[17,40] cannot find symbol
+[[1;31mERROR[m]   symbol: class HttpSessionListener
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/SessionManager.java:[17,61] cannot find symbol
+[[1;31mERROR[m]   symbol: class ServletContextListener
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[22,19] package org.postgis does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[23,27] package org.postgresql.util does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[28,21] package javax.servlet does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[29,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[30,26] package javax.servlet.http does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[36,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[37,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[38,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/QService.java:[39,18] package ee.or.geom does not exist
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[275,27] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletConfig
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[275,58] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletException
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[374,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[385,54] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[390,45] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[397,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[402,52] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[418,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[429,47] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[448,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[457,46] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[470,55] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[483,55] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[493,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[503,35] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[514,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[583,31] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[583,59] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[584,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[584,56] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[584,93] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletException
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[850,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpSession
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[855,43] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[893,35] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[893,63] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[905,35] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[916,29] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[916,58] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[916,90] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletException
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[959,39] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[974,37] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1431,37] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1431,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1434,37] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1438,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1449,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1452,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpSession
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1464,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpSession
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1476,31] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1524,31] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1524,59] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1524,96] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletException
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1527,75] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1546,41] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletResponse
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1577,46] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1585,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class HttpServletRequest
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1591,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ServletContext
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1591,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Realm
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1615,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ApplicationContextFacade
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1614,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ApplicationContext
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1641,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ApplicationContext
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] /home/hydra/workspace1/AppServ/src/main/java/ee/or/is/ISServlet.java:[1640,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class StandardContext
+[[1;31mERROR[m]   location: class ee.or.is.ISServlet
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

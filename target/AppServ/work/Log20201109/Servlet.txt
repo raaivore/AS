@@ -1,0 +1,13 @@
+18:55:15 18:54:15.076 ************** ISServlet init start ************************
+18:55:15 18:54:15.125 Config File: /home/hydra/workspace1/AppServ/target/AppServ/config.xml
+18:55:15 18:54:15.140  Log Task Log_Servlet started
+18:55:15 18:54:15.147  debug = 0
+18:55:15 18:54:15.151  log cat is /home/hydra/workspace1/AppServ/target/AppServ/work/Log20201109
+18:55:15 18:54:15.153  config, db: driver='jdbc:postgresql://172.17.0.1:5432/appres
+18:55:15 18:54:15.153 SessionManager started
+18:55:15 18:54:15.157 ************** ISServlet init end ************************
+18:55:15 18:54:15.157 
+       ************** AppServ Client Servlet init start ************************
+18:55:15 18:54:15.308  Log Task User.txt started
+18:55:15 18:54:15.721 
+       ************** AppServClient Servlet init end ************************

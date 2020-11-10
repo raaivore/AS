@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="var" path="TOMCAT_HOME/common/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/common/lib/jasper-runtime.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/common/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/common/lib/or.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/solr/httpclient-4.5.2.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/solr/solr-solrj-8.6.3.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/solr/commons-codec-1.15.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/solr/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/solr/commons-io-1.4.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/solr/jcl-over-slf4j-1.5.5.jar"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="M2_REPO/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+</classpath>
